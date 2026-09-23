@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "learn-nestjs",
+=======
+  "name": "learn-nest-js",
+>>>>>>> upstream/main
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -14,7 +18,11 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
+<<<<<<< HEAD
     "lint": "oxlint --type-aware src/ test/",
+=======
+    "lint": "oxlint src/ test/",
+>>>>>>> upstream/main
     "test": "vitest run",
     "test:watch": "vitest",
     "test:cov": "vitest run --coverage",
@@ -24,7 +32,10 @@
   "dependencies": {
     "@nestjs/common": "^12.0.1",
     "@nestjs/core": "^12.0.1",
+<<<<<<< HEAD
     "@nestjs/observe": "^0.3.0",
+=======
+>>>>>>> upstream/main
     "@nestjs/platform-express": "^12.0.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
@@ -39,7 +50,10 @@
     "@types/supertest": "^7.0.0",
     "@vitest/coverage-v8": "^4.1.2",
     "oxlint": "^1.58.0",
+<<<<<<< HEAD
     "oxlint-tsgolint": "^7.0.2001",
+=======
+>>>>>>> upstream/main
     "prettier": "^3.4.2",
     "source-map-support": "^0.5.21",
     "supertest": "^7.0.0",
